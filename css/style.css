@@ -67,14 +67,6 @@ body {
 /* Navbar End */
 
 /* Section */
-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: self-start;
-}
-
 .name {
   color: white;
   font-weight: 800;
@@ -84,14 +76,36 @@ section {
 .social-icons {
   display: flex;
   list-style: none;
-}
-
-.social-items {
-  margin: 0 10px;
+  margin-top: 30px;
+  margin-left: 180px;
 }
 
 .social-links {
   text-decoration: none;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 35px;
+  margin: 0 10px;
+  color: black;
+}
+
+.social-links:hover {
+  color: #d96b34;
+  background-color: black;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.profile-photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: fill;
+  border: 3px solid black;
+  transition: transform 0.3s;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0,0,0,1);
+  transition: .3s ease-in-out;
 }
