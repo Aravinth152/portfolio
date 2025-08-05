@@ -33,6 +33,7 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   background-color: #d96b34;
 }
 /* Navbar */
@@ -64,3 +65,33 @@ body {
 }
 
 /* Navbar End */
+
+/* Section */
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+
+.name {
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+
+.social-items {
+  margin: 0 10px;
+}
+
+.social-links {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+}
