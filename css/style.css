@@ -93,6 +93,9 @@ body {
   background-color: black;
   transition: 0.3s ease-in-out;
   border-radius: 10px;
+  transform: scale(1.05);
+  box-shadow: 0 8px 10px rgba(0,0,0,1);
+  transition: .3s ease-in-out;
 }
 
 .profile-photo {
