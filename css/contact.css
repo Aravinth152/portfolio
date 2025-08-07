@@ -34,11 +34,11 @@ html, body {
   margin: 0;
 }
 
-/* body */
+/* Body */
 body {
-  display: flex;
-  flex-direction: column;
-  background-color: #d96b34;
+    display: flex;
+    flex-direction: column;
+    background-color: #d96b34;
 }
 
 .content {
@@ -72,54 +72,28 @@ body {
   color: #d96b34;
   transition: 0.2s ease-in-out  ;
 }
-
+.nav-link.active {
+  color: #d96b34;
+  
+}
 /* Navbar End */
 
-/* Section */
-.name {
-  color: white;
-  font-weight: 800;
-  letter-spacing: 2px;
+/* Main Page Start*/
+.container {
+    text-align: center;
 }
 
-.social-icons {
-  display: flex;
-  list-style: none;
-  margin-top: 30px;
-  margin-left: 180px;
+.row {
+    align-items: center;
 }
 
-.social-links {
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 35px;
-  margin: 0 10px;
-  color: black;
+.contact-header {
+    justify-content: center;
 }
 
-.social-links:hover {
-  color: #d96b34;
-  background-color: black;
-  transition: 0.3s ease-in-out;
-  border-radius: 10px;
-  transform: scale(1.05);
-  box-shadow: 0 8px 10px rgba(0,0,0,1);
-  transition: .3s ease-in-out;
-}
-
-.profile-photo {
-  width: 300px;
-  height: 320px;
-  border-radius: 50%;
-  object-fit: fill;
-  border: 3px solid black;
-  transition: transform 0.3s;
-}
-
-.profile-photo:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(0,0,0,1);
-  transition: .3s ease-in-out;
+#icon-rotate {
+  display: inline-block;
+  transform: rotate(45deg);
 }
 
 /* Footer */
