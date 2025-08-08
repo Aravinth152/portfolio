@@ -72,7 +72,6 @@ body {
   color: #d96b34;
   transition: 0.2s ease-in-out  ;
 }
-
 /* Navbar End */
 
 /* Section */
@@ -86,7 +85,8 @@ body {
   display: flex;
   list-style: none;
   margin-top: 30px;
-  margin-left: 180px;
+  text-align: center;
+  margin-left: 130px;
 }
 
 .social-links {
@@ -141,3 +141,9 @@ body {
 }
 
 /* Footer End */
+
+@media screen and (max-width:768px) {
+  .social-icons {
+    margin-left: 50px;
+  }
+}

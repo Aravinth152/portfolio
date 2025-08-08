@@ -68,13 +68,14 @@ body {
   font-weight: 600;
 }
 
-.cuz-nav-link:hover {
+.cuz-nav-link:hover , :active {
   color: #d96b34;
   transition: 0.2s ease-in-out  ;
 }
-.nav-link.active {
-  color: #d96b34;
-  
+
+nav a.active {
+  color: black;
+  background-color: #d96b34;
 }
 /* Navbar End */
 
