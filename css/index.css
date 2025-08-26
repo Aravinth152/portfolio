@@ -113,9 +113,24 @@
     font-family: "Poppins" !important;
 }
 
- nav h2 a {
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-decoration: none;
-    color: black;
+nav {
+  margin: 10px;
+}
+
+.nav-brand {
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-items{
+  margin: 0 10px 0 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
 }
